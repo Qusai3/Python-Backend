@@ -9,7 +9,6 @@ dic2 = {'b': 5,
 
 merged = {}
 
-
 for key, value in dic1.items():
     merged[key] = value
 
