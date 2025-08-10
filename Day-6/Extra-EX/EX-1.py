@@ -8,11 +8,11 @@ def main():
     output_file = "palindromes.txt"
 
     try:
-        # Read words from file
+       
         with open(input_file, "r", encoding="utf-8") as f:
-            words = [line.strip() for line in f if line.strip()]  # remove empty lines
+            words = [line.strip() for line in f if line.strip()]  
 
-        # Find palindromes
+        
         palindromes = [word.upper() for word in words if is_palindrome(word)]
 
         # Write palindromes to new file
