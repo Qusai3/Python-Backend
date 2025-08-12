@@ -1,17 +1,3 @@
-# student ={
-#     "name":"qusai",
-#     "age": 20,
-#     "skills": ["Python", "JavaScript", "C++"]
-# }
-# print("Student INFO: ",student)
-
-
-# numbers =[3,4,8,7,9,9,3]
-# unique_numbers = list(set(numbers))
-# print("Unique numbers:", unique_numbers)
-
-
-
 
 
 # A = {1, 2, 3, 4}
