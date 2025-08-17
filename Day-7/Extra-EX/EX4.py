@@ -1,5 +1,5 @@
 class Book:
-    def __init__(self, title, author, isbn):  # Fixed constructor name
+    def __init__(self, title, author, isbn):
         self.title = title
         self.author = author
         self.isbn = isbn
@@ -8,7 +8,7 @@ class Book:
         return self.title + " by " + self.author + " (ISBN: " + self.isbn + ")"
 
 class Library:
-    def __init__(self):  # Fixed constructor name
+    def __init__(self):  
         self.books = []
 
     def add_book(self, book):
