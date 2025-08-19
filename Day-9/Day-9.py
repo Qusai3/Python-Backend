@@ -1,9 +1,9 @@
 import time
 
 def measure_time(func):
-    def wrapper(*args, **kwargs):  # Fixed: use *args, **kwargs
+    def wrapper(*args, **kwargs):  
         start = time.time()
-        result = func(*args, **kwargs)  # Fixed: pass *args, **kwargs
+        result = func(*args, **kwargs)  
         end = time.time()
         execution_time = end - start
         print(f"Execution time: {execution_time:.4f} seconds")
