@@ -11,7 +11,7 @@ def primes():
             yield num
         num += 1
 
-prime_gen = primes()  # Fixed variable name
-for _ in range(6):    # Fixed loop variable
-    print(next(prime_gen), end=" ")   # 2 3 5 7 11 13
+prime_gen = primes()  
+for _ in range(6):    
+    print(next(prime_gen), end=" ")
 print()
